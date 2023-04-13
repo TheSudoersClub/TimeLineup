@@ -15,7 +15,7 @@ header {
   text-transform: capitalize;
 }
 
-.date-container #date {
+.time-container #time {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 12px;

@@ -1,5 +1,5 @@
 // day and time
-function renderCurrentDateTime() {
+function renderCurrentDayTime() {
     //  new Date object
     const currentDate = new Date();
   
