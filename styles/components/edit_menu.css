@@ -1,0 +1,30 @@
+.edit-menu {
+    position: absolute;
+    bottom: 0;
+    background: whitesmoke;
+    width: 100vw;
+    height: 50vh;
+
+
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    outline: 2px solid black;
+
+
+}
+
+button{
+    padding: 0.8rem;
+    border-radius: 50px;
+    border: 2px solid black;
+    width: 10rem;
+    font-weight: bold;
+    background: var(--bg-clr);
+}
