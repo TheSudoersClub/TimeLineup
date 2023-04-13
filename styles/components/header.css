@@ -1,16 +1,19 @@
 header {
   height: 20vh;
-
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .meta {
   margin-left: 1rem;
 }
+
 .date-container #date {
-  font-weight: bold;
+  font-weight: 700;
 }
+
 .edit-icon img {
   width: 5rem;
   margin-right: 18px;
