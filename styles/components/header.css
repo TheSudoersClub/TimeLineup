@@ -25,7 +25,10 @@ header {
 
 .edit-icon {
   cursor: pointer;
-  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
 }
 
 .edit-icon img {
