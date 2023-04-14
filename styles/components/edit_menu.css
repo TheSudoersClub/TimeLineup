@@ -17,14 +17,29 @@
 
     outline: 2px solid black;
 
+    animation: edit-menu-toggle 1s;
+
+    display: none;
+
 
 }
 
-button{
+
+button {
     padding: 1rem 0.8rem;
     border-radius: 50px;
     border: 2px solid black;
     width: 50vw;
     font-weight: bold;
     background: var(--bg-clr);
+}
+
+@keyframes edit-menu-toggle {
+    from {
+        transform: translateY(50vh);
+    }
+
+    to {
+        transform: translateY(0vh);
+    }
 }
