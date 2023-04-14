@@ -3,9 +3,11 @@
   justify-content: center;
   align-items: center;
   width: 80vw;
-  height: 5rem;
+  min-height: 5rem;
   position: relative;
   transform: translateX(-0.4rem);
+
+  margin-bottom: 2rem;
 }
 
 .card-container .card-foreground {

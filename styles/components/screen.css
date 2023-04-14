@@ -11,5 +11,8 @@
   outline: 5px solid rgb(0, 0, 0);
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: auto;
 }

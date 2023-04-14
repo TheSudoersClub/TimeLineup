@@ -2,7 +2,10 @@ window.addEventListener(
   "load",
   function () {
     setInterval(() => {
-      const { day, time } = renderCurrentDayTime();
+      const {
+        day,
+        time
+      } = renderCurrentDayTime();
       // console.log(day);
       // console.log(time);
 
