@@ -27,6 +27,15 @@ body {
   overflow: hidden;
 }
 
+#main {
+background-color: black;
+
+}
+
+.container {
+  height: 85vh;
+}
+
 a,
 a:visited,
 a:hover {

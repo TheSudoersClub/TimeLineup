@@ -1,5 +1,6 @@
 .edit-menu {
     position: absolute;
+    z-index: 1;
     bottom: 0;
     background: whitesmoke;
     width: 100vw;
