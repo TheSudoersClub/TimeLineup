@@ -18,11 +18,11 @@
 }
 
 .toggle-on{
-    animation: edit-menu-toggle-on 1s forwards;
+    animation: edit-menu-toggle-on 0.8s forwards;
 }
 
 .toggle-off{
-    animation: edit-menu-toggle-off 1s forwards;
+    animation: edit-menu-toggle-off 0.8s forwards;
 }
 
 
