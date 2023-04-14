@@ -21,10 +21,10 @@
 }
 
 button{
-    padding: 0.8rem;
+    padding: 1rem 0.8rem;
     border-radius: 50px;
     border: 2px solid black;
-    width: 10rem;
+    width: 50vw;
     font-weight: bold;
     background: var(--bg-clr);
 }
