@@ -4,13 +4,13 @@ let menuToggle = false;
 
 editIcon.addEventListener("click", () => {
     if (menuToggle === false) {
+        editMenu.classList.toggle("toggle-on");
         editMenu.style = " display: flex";
         menuToggle = true;
     }
     else {
-        editMenu.style = " display: none";
+        editMenu.classList.toggle("toggle-off");
         menuToggle = false;
     }
-
 })
 

@@ -5,7 +5,6 @@
     width: 100vw;
     height: 50vh;
 
-
     border-top-left-radius: 32px;
     border-top-right-radius: 32px;
 
@@ -14,14 +13,16 @@
     align-items: center;
     flex-direction: column;
     gap: 2.5rem;
-
     outline: 2px solid black;
-
-    animation: edit-menu-toggle 1s;
-
     display: none;
+}
 
+.toggle-on{
+    animation: edit-menu-toggle-on 1s forwards;
+}
 
+.toggle-off{
+    animation: edit-menu-toggle-off 1s forwards;
 }
 
 
@@ -34,12 +35,22 @@ button {
     background: var(--bg-clr);
 }
 
-@keyframes edit-menu-toggle {
+@keyframes edit-menu-toggle-on {
     from {
         transform: translateY(50vh);
     }
 
     to {
         transform: translateY(0vh);
+    }
+}
+
+@keyframes edit-menu-toggle-off {
+    from {
+        transform: translateY(0vh);
+    }
+    
+    to {
+        transform: translateY(50vh);
     }
 }
