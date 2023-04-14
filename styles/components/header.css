@@ -21,6 +21,10 @@ header {
   font-size: 12px;
 }
 
+.edit-icon{
+  cursor: pointer;
+}
+  
 .edit-icon img {
   width: 5rem;
   margin-right: auto;

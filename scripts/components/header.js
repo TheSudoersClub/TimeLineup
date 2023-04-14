@@ -3,8 +3,8 @@ window.addEventListener(
   function () {
     setInterval(() => {
       const { day, time } = renderCurrentDayTime();
-      console.log(day);
-      console.log(time);
+      // console.log(day);
+      // console.log(time);
 
       let headerDay = document.getElementById("day");
       let headerTime = document.getElementById("time");
