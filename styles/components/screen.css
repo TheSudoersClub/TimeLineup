@@ -1,0 +1,11 @@
+#container {
+  display: flex;
+  overflow-x: scroll;
+}
+
+#container .screen {
+  background: rgb(143, 143, 143);
+  height: 85vh;
+  min-width: 100vw;
+  outline: 5px solid rgb(0, 0, 0);
+}
