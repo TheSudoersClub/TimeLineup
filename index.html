@@ -1,62 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- scripts  -->
-    <script src="scripts/index.js" defer></script>
-    <script src="scripts/components/header.js" defer></script>
-    <script src="scripts/helpers.js" defer></script>
-    <script src="scripts/components/edit_menu.js" defer></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- styles -->
-    <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" href="styles/components/header.css" />
-    <link rel="stylesheet" href="styles/components/edit_menu.css" />
-    <link rel="stylesheet" href="styles/components/screen.css">
+  <!-- scripts  -->
+  <script src="scripts/index.js" defer></script>
+  <script src="scripts/components/header.js" defer></script>
+  <script src="scripts/helpers.js" defer></script>
+  <script src="scripts/components/edit_menu.js" defer></script>
 
-    <!-- fonts  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Kanit:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- styles -->
+  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="stylesheet" href="styles/components/header.css" />
+  <link rel="stylesheet" href="styles/components/edit_menu.css" />
+  <link rel="stylesheet" href="styles/components/screen.css" />
+  <link rel="stylesheet" href="styles/components/sub_card.css" />
 
-    <title>TimeLineup</title>
-  </head>
-  <body>
-    <div id="main">
-      <header>
-        <div class="meta">
-          <div class="day-container"><h1 id="day"></h1></div>
-          <div class="time-container"><span id="time"></span></div>
+  <!-- fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Kanit:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+
+  <title>TimeLineup</title>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div class="meta">
+        <div class="day-container">
+          <h1 id="day"></h1>
         </div>
-        <div class="edit-icon">
-          <img id="edit-icon-img" src="./assets/edit-icon.svg" alt="edit-icon" />
-        </div>
-      </header>
+        <div class="time-container"><span id="time"></span></div>
+      </div>
+      <div class="edit-icon">
+        <img id="edit-icon-img" src="./assets/edit-icon.svg" alt="edit-icon" />
+      </div>
+    </header>
 
-      <section id="container">
-        <!-- <div class="screen">f</div>
-        <div class="screen">f</div>
+    <section id="container">
+      <div class="screen">
+        <div class="card-container">
+          <div class="card-foreground">
+            <div class=" subject-card-title-wrapper">
+              <h1 id="subject-card-title">DCC</h1>
+            </div>
+            <div class="subject-card-time-wrapper">
+              <span id="subject-card-time">12.45 - 1:30</span>
+            </div>
+          </div>
+          <div class="card-background" style="--card-clr: pink;"></div>
+        </div>
+      </div>
+
+      <!-- <div class="screen">f</div>
         <div class="screen">f</div>
         <div class="screen">f</div>
         <div class="screen">f</div>
         <div class="screen">f</div>
         <div class="screen">f</div> -->
-      </section>
-    </div>
+    </section>
+  </div>
 
-    <div class="edit-menu">
-      <div class="update-container">
-        <button id="update-json-btn">Update/Add JSON</button>
-      </div>
-      <div class="download-container">
-        <button id="download-template-btn">Download Template</button>
-      </div>
+  <div class="edit-menu">
+    <div class="update-container">
+      <button id="update-json-btn">Update/Add JSON</button>
     </div>
-  </body>
+    <div class="download-container">
+      <button id="download-template-btn">Download Template</button>
+    </div>
+  </div>
+</body>
+
 </html>

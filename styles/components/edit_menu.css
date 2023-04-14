@@ -14,24 +14,24 @@
   align-items: center;
   flex-direction: column;
   gap: 2.5rem;
-  outline: 2px solid black;
+  outline: 0.13rem solid black;
   display: none;
 }
 
 .toggle-on {
   animation: edit-menu-toggle-on 0.5s forwards;
-  animation-timing-function: cubic-bezier(0.34, 0.09, 0.23, 1.06);
+  animation-timing-function: cubic-bezier(.34,.09,.23,1.06)
 }
 
 .toggle-off {
   animation: edit-menu-toggle-off 0.5s forwards;
-  animation-timing-function: cubic-bezier(0.34, 0.09, 0.23, 1.06);
+  animation-timing-function: cubic-bezier(.34,.09,.23,1.06)
 }
 
 button {
   padding: 1rem 0.8rem;
   border-radius: 50px;
-  border: 2px solid black;
+  border: 0.15rem solid var(--txt-clr);
   width: 50vw;
   font-weight: bold;
   background: var(--bg-clr);

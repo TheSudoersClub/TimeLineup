@@ -1,0 +1,47 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 5rem;
+  position: relative;
+  transform: translateX(-0.4rem);
+}
+
+.card-container .card-foreground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: var(--bg-clr);
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+
+  border: 2px solid var(--txt-clr);
+}
+
+.card-container .card-foreground h1 {
+  font-size: 2.5rem;
+}
+
+.card-container .card-foreground .subject-card-time-wrapper {
+  position: absolute;
+  bottom: 0.2rem;
+  right: 1rem;
+}
+.card-container .card-foreground span {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.card-container .card-background {
+  position: absolute;
+  background: var(--card-clr);
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  transform: translate(0.7rem, 0.5rem);
+  border: 2px solid var(--txt-clr);
+}

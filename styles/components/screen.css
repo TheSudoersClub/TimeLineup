@@ -4,8 +4,12 @@
 }
 
 #container .screen {
-  background: rgb(143, 143, 143);
+  padding-top: 2rem;
+  background: inherit;
   height: 85vh;
   min-width: 100vw;
   outline: 5px solid rgb(0, 0, 0);
+
+  display: flex;
+  justify-content: center;
 }
