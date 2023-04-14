@@ -1,16 +1,19 @@
-// day and time
 function renderCurrentDayTime() {
-    //  new Date object
+    // Create new Date object
     const currentDate = new Date();
-  
+    
     // Get the current date and time
     const day = currentDate.toLocaleString('en-US', { weekday: 'long' });
-    const hours = currentDate.getHours();
-    const minutes = currentDate.getMinutes();
-    const time = `${hours}:${minutes}`;
+    let hours = currentDate.getHours();
+    let minutes = currentDate.getMinutes();
     
-//   return day & time 
-    return {day,time}
-    
+    // convert to 12-hour format
+    let ampm = hours >= 12 ? 'pm' : 'am';
+    hours = hours % 12;
+    hours = hours ? hours : 12; 
+    const time = `${hours < 10 ? '0' + hours : hours}:${minutes < 10 ? '0' + minutes : minutes} ${ampm}`;
+      
+    // Return day and time object
+    return { day, time };
   }
   
