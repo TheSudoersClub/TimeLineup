@@ -1,57 +1,58 @@
 .edit-menu {
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    background: whitesmoke;
-    width: 100vw;
-    height: 50vh;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  background: whitesmoke;
+  width: 100vw;
+  height: 50vh;
 
-    border-top-left-radius: 32px;
-    border-top-right-radius: 32px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2.5rem;
-    outline: 2px solid black;
-    display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5rem;
+  outline: 2px solid black;
+  display: none;
 }
 
-.toggle-on{
-    animation: edit-menu-toggle-on 0.8s forwards;
+.toggle-on {
+  animation: edit-menu-toggle-on 0.5s forwards;
+  animation-timing-function: cubic-bezier(0.34, 0.09, 0.23, 1.06);
 }
 
-.toggle-off{
-    animation: edit-menu-toggle-off 0.8s forwards;
+.toggle-off {
+  animation: edit-menu-toggle-off 0.5s forwards;
+  animation-timing-function: cubic-bezier(0.34, 0.09, 0.23, 1.06);
 }
-
 
 button {
-    padding: 1rem 0.8rem;
-    border-radius: 50px;
-    border: 2px solid black;
-    width: 50vw;
-    font-weight: bold;
-    background: var(--bg-clr);
+  padding: 1rem 0.8rem;
+  border-radius: 50px;
+  border: 2px solid black;
+  width: 50vw;
+  font-weight: bold;
+  background: var(--bg-clr);
 }
 
 @keyframes edit-menu-toggle-on {
-    from {
-        transform: translateY(50vh);
-    }
+  from {
+    transform: translateY(50vh);
+  }
 
-    to {
-        transform: translateY(0vh);
-    }
+  to {
+    transform: translateY(0vh);
+  }
 }
 
 @keyframes edit-menu-toggle-off {
-    from {
-        transform: translateY(0vh);
-    }
-    
-    to {
-        transform: translateY(50vh);
-    }
+  from {
+    transform: translateY(0vh);
+  }
+
+  to {
+    transform: translateY(51vh);
+  }
 }
