@@ -10,6 +10,10 @@
   margin-bottom: 3rem;
 }
 
+.screen .card-container:last-child {
+  margin-bottom: 0;
+}
+
 .card-container .card-foreground {
   display: flex;
   justify-content: center;
