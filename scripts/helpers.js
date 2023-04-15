@@ -20,7 +20,7 @@ function renderCurrentDayTime() {
 
   // Get the current date and time
   const day = currentDate.toLocaleString("en-US", {
-    weekday: "long"
+    weekday: "long",
   });
   let hours = currentDate.getHours();
   let minutes = currentDate.getMinutes();
@@ -36,21 +36,18 @@ function renderCurrentDayTime() {
   // Return day and time object
   return {
     day,
-    time
+    time,
   };
 }
 
-
 // render screens
 function renderScreens() {
-
   // get the container section
   let container = document.getElementById("container");
 
   // loop through the days in timeTable
   for (const day in timeTableData) {
     if (timeTableData.hasOwnProperty(day)) {
-
       // render respective screen
       container.innerHTML += `<div id="${day}" class="screen"></div>`;
     }
@@ -59,13 +56,26 @@ function renderScreens() {
 
 // render screen (day) cards
 function renderCards() {
-
   // loop through the days in timeTable
   for (const day in timeTableData) {
     if (timeTableData.hasOwnProperty(day)) {
-
       // get screen div with respect to day
       let screen = document.getElementById(day);
+
+      // define an array of colors
+      const cardColors = [
+        "#979797",
+        "#FF7D7D",
+        " #9ACA4C",
+        " #76CAF9",
+        "#8179E0",
+        "#E5B962",
+        " #84FFB5",
+        "#B69898",
+      ];
+
+      // reinitialize of array
+      let copyCardColors = cardColors;
 
       // for off days
       if (day === "sunday") {
@@ -77,8 +87,7 @@ function renderCards() {
         // loop through subjects
         for (const subject in timeTableData[day]) {
           if (timeTableData[day].hasOwnProperty(subject)) {
-
-            // get the subject's object wrt day 
+            // get the subject's object wrt day
             const subjectObject = timeTableData[day][subject];
 
             // title or the subject
@@ -96,30 +105,38 @@ function renderCards() {
               <div class="break-container">
                 ${title}
               </div>
-              `
+              `;
             }
 
             // render subject data in screen
             else {
+              // generate a random index to select a color from the array
+              const randomIndex = Math.floor(
+                Math.random() * copyCardColors.length
+              );
+
+              // select the random color from the array
+              const randomColor = copyCardColors[randomIndex];
+
+              copyCardColors.splice(randomIndex, 1);
+
               screen.innerHTML += `
-              <div class="card-container">
-                <div class="card-foreground">
-                <div class=" subject-card-title-wrapper">
-                  <h1 id="subject-card-title">${title}</h1>
-                </div>
-                <div class="subject-card-time-wrapper">
-                  <span id="subject-card-time">${startTime} - ${endTime}</span>
-                </div>
-                </div>
-                <div class="card-background" style="--card-clr: pink;"></div>
-              </div>
-              `
+                  <div class="card-container">
+                    <div class="card-foreground">
+                      <div class="subject-card-title-wrapper">
+                        <h1 id="subject-card-title">${title}</h1>
+                      </div>
+                      <div class="subject-card-time-wrapper">
+                        <span id="subject-card-time">${startTime} - ${endTime}</span>
+                      </div>
+                    </div>
+                    <div class="card-background" style="--card-clr: ${randomColor};"></div>
+                  </div>
+                `;
             }
           }
-
         }
       }
-
     }
   }
 }
