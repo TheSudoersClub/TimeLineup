@@ -11,4 +11,4 @@ https://www.figma.com/file/0sOES2A6eyGifLutovat22/TImeLineup?node-id=0%3A1&t=p89
 
 <hr>
 
-> We Know this its lame but checking the pdf over and over or writing it on paper ! bro common we are programmers
+> We know its lame but checking the pdf over and over or writing it on paper ! bro !! common we are programmers
