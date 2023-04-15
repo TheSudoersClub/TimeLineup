@@ -3,56 +3,49 @@ let timeTableData = {
   "monday": {
 
     "sub1": {
-      "title": "title1",
-      "time": {
-        "start": "start time",
-        "end": "end time"
-      }
-    },
-    "sub2": {
-      "title": "title2",
+      "title": ["title1", "title2", "title3"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "break1": {
-      "title": "Break",
+      "title": ["lunch break"],
+      "time": {
+        "start": "start time",
+        "end": "end time"
+      }
+    },
+    "sub2": {
+      "title": ["title3  "],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub3": {
-      "title": "title3",
-      "time": {
-        "start": "start time",
-        "end": "end time"
-      }
-    },
-    "sub4": {
-      "title": "title4",
+      "title": ["title4"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "break2": {
-      "title": "Break",
+      "title": ["short break"],
+      "time": {
+        "start": "start time",
+        "end": "end time"
+      }
+    },
+    "sub4": {
+      "title": ["title5"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub5": {
-      "title": "title5",
-      "time": {
-        "start": "start time",
-        "end": "end time"
-      }
-    },
-    "sub6": {
-      "title": "title6",
+      "title": ["title6"],
       "time": {
         "start": "start time",
         "end": "end time"
@@ -62,56 +55,50 @@ let timeTableData = {
   "tuesday": {
 
     "sub1": {
-      "title": "title1",
+      "title": ["title1"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub2": {
-      "title": "title2",
+      "title": ["title2"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "break1": {
-      "title": "Break",
+      "title": ["lunch break"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub3": {
-      "title": "title3",
+      "title": ["DCC", "SEN", "JAVA"],
+      "time": {
+        "start": "start time",
+        "end": "end time"
+      }
+    },
+    
+    "break2": {
+      "title": ["short break"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub4": {
-      "title": "title4",
-      "time": {
-        "start": "start time",
-        "end": "end time"
-      }
-    },
-    "break2": {
-      "title": "Break",
+      "title": ["title5"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub5": {
-      "title": "title5",
-      "time": {
-        "start": "start time",
-        "end": "end time"
-      }
-    },
-    "sub6": {
-      "title": "title6",
+      "title": ["title6"],
       "time": {
         "start": "start time",
         "end": "end time"
@@ -121,56 +108,56 @@ let timeTableData = {
   "wednesday": {
 
     "sub1": {
-      "title": "title1",
+      "title": ["title1"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub2": {
-      "title": "title2",
+      "title": ["title2"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "break1": {
-      "title": "Break",
+      "title": ["lunch break"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub3": {
-      "title": "title3",
+      "title": ["title3"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub4": {
-      "title": "title4",
+      "title": ["title4"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "break2": {
-      "title": "Break",
+      "title": ["short break"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub5": {
-      "title": "title5",
+      "title": ["title5"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub6": {
-      "title": "title6",
+      "title": ["title6"],
       "time": {
         "start": "start time",
         "end": "end time"
@@ -180,56 +167,56 @@ let timeTableData = {
   "thursday": {
 
     "sub1": {
-      "title": "title1",
+      "title": ["title1"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub2": {
-      "title": "title2",
+      "title": ["title2"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "break1": {
-      "title": "Break",
+      "title": ["lunch break"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub3": {
-      "title": "title3",
+      "title": ["title3"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub4": {
-      "title": "title4",
+      "title": ["title4"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "break2": {
-      "title": "Break",
+      "title": ["short break"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub5": {
-      "title": "title5",
+      "title": ["title5"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub6": {
-      "title": "title6",
+      "title": ["title6"],
       "time": {
         "start": "start time",
         "end": "end time"
@@ -239,56 +226,56 @@ let timeTableData = {
   "friday": {
 
     "sub1": {
-      "title": "title1",
+      "title": ["title1"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub2": {
-      "title": "title2",
+      "title": ["title2"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "break1": {
-      "title": "Break",
+      "title": ["lunch break"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub3": {
-      "title": "title3",
+      "title": ["title3"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub4": {
-      "title": "title4",
+      "title": ["title4"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "break2": {
-      "title": "Break",
+      "title": ["short break"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub5": {
-      "title": "title5",
+      "title": ["title5"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub6": {
-      "title": "title6",
+      "title": ["title6"],
       "time": {
         "start": "start time",
         "end": "end time"
@@ -298,70 +285,70 @@ let timeTableData = {
   "saturday": {
 
     "sub1": {
-      "title": "title1",
+      "title": ["title1"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub2": {
-      "title": "title2",
+      "title": ["title2"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "break1": {
-      "title": "Break",
+      "title": ["lunch break"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub3": {
-      "title": "title3",
+      "title": ["title3"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub4": {
-      "title": "title4",
+      "title": ["title4"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "break2": {
-      "title": "Break",
+      "title": ["short break"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub5": {
-      "title": "title5",
+      "title": ["title5"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub6": {
-      "title": "title6",
+      "title": ["title6"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub5": {
-      "title": "title5",
+      "title": ["title5"],
       "time": {
         "start": "start time",
         "end": "end time"
       }
     },
     "sub6": {
-      "title": "title6",
+      "title": ["title6"],
       "time": {
         "start": "start time",
         "end": "end time"

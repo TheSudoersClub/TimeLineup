@@ -118,21 +118,25 @@ function renderCards() {
               // select the random color from the array
               const randomColor = copyCardColors[randomIndex];
 
+              // remove the color to avoid the repetitive colors 
               copyCardColors.splice(randomIndex, 1);
 
+              // get the height according to the titles 
+              const height = 5 * (title.length);
+
+              // render card
               screen.innerHTML += `
-                  <div class="card-container">
-                    <div class="card-foreground">
-                      <div class="subject-card-title-wrapper">
-                        <h1 id="subject-card-title">${title}</h1>
-                      </div>
-                      <div class="subject-card-time-wrapper">
-                        <span id="subject-card-time">${startTime} - ${endTime}</span>
-                      </div>
-                    </div>
-                    <div class="card-background" style="--card-clr: ${randomColor};"></div>
+              <div class="card-container" style="min-height: ${height}rem">
+                <div class="card-foreground">
+                  <div class="subject-card-title-wrapper">
+                    ${title.map((e)=>{return (`<h1 id="subject-card-title">${e}</h1>`)}).join("")}
                   </div>
-                `;
+                  <div class="subject-card-time-wrapper">
+                    <span id="subject-card-time">${startTime} - ${endTime}</span>
+                  </div>
+                </div>
+                <div class="card-background" style="--card-clr: ${randomColor};"></div>
+              </div>`
             }
           }
         }
