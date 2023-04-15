@@ -19,6 +19,10 @@ html {
   color: var(--txt-clr);
 }
 
+*::-webkit-scrollbar {
+  width: 0px;
+}
+
 body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 1.3;
