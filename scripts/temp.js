@@ -17,7 +17,7 @@ let timeTableData = {
       }
     },
     "break1": {
-      "title": "lunch break",
+      "title": "Break",
       "time": {
         "start": "start time",
         "end": "end time"
@@ -38,7 +38,7 @@ let timeTableData = {
       }
     },
     "break2": {
-      "title": "short break",
+      "title": "Break",
       "time": {
         "start": "start time",
         "end": "end time"
@@ -76,7 +76,7 @@ let timeTableData = {
       }
     },
     "break1": {
-      "title": "lunch break",
+      "title": "Break",
       "time": {
         "start": "start time",
         "end": "end time"
@@ -97,7 +97,7 @@ let timeTableData = {
       }
     },
     "break2": {
-      "title": "short break",
+      "title": "Break",
       "time": {
         "start": "start time",
         "end": "end time"
@@ -135,7 +135,7 @@ let timeTableData = {
       }
     },
     "break1": {
-      "title": "lunch break",
+      "title": "Break",
       "time": {
         "start": "start time",
         "end": "end time"
@@ -156,7 +156,7 @@ let timeTableData = {
       }
     },
     "break2": {
-      "title": "short break",
+      "title": "Break",
       "time": {
         "start": "start time",
         "end": "end time"
@@ -194,7 +194,7 @@ let timeTableData = {
       }
     },
     "break1": {
-      "title": "lunch break",
+      "title": "Break",
       "time": {
         "start": "start time",
         "end": "end time"
@@ -215,7 +215,7 @@ let timeTableData = {
       }
     },
     "break2": {
-      "title": "short break",
+      "title": "Break",
       "time": {
         "start": "start time",
         "end": "end time"
@@ -253,7 +253,7 @@ let timeTableData = {
       }
     },
     "break1": {
-      "title": "lunch break",
+      "title": "Break",
       "time": {
         "start": "start time",
         "end": "end time"
@@ -274,7 +274,7 @@ let timeTableData = {
       }
     },
     "break2": {
-      "title": "short break",
+      "title": "Break",
       "time": {
         "start": "start time",
         "end": "end time"
@@ -312,7 +312,7 @@ let timeTableData = {
       }
     },
     "break1": {
-      "title": "lunch break",
+      "title": "Break",
       "time": {
         "start": "start time",
         "end": "end time"
@@ -333,7 +333,7 @@ let timeTableData = {
       }
     },
     "break2": {
-      "title": "short break",
+      "title": "Break",
       "time": {
         "start": "start time",
         "end": "end time"
