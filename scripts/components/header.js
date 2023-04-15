@@ -1,20 +1,29 @@
-window.addEventListener(
-  "load",
-  function () {
-    setInterval(() => {
-      const {
-        day,
-        time
-      } = renderCurrentDayTime();
-      // console.log(day);
-      // console.log(time);
+window.addEventListener("load", () => {
 
-      let headerDay = document.getElementById("day");
-      let headerTime = document.getElementById("time");
+  let headerDay = document.getElementById("day");
+  let headerTime = document.getElementById("time");
 
-      headerDay.innerText = day;
-      headerTime.innerText = time;
-    });
-  },
-  60000
-);
+  // get the day and time
+  const {
+    day,
+    time
+  } = renderCurrentDayTime();
+
+  // render day and time onload
+  headerTime.innerText = time;
+  headerDay.innerText = day;
+
+  // rerender time for every minute
+  setInterval(() => {
+    // get the day and time
+
+    const {
+      day,
+      time
+    } = renderCurrentDayTime();
+
+    // render time
+    headerTime.innerText = time;
+  }, 60000);
+
+});

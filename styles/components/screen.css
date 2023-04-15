@@ -10,7 +10,6 @@
   background: inherit;
   height: 80vh;
   min-width: 100vw;
-  /* outline: 5px solid rgb(0, 0, 0); */
 
   display: flex;
   flex-direction: column;
