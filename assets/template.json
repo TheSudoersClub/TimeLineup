@@ -1,351 +1,308 @@
 {
     "monday": {
         "sub1": {
-            "title": ["title"],
+            "title": ["MIC", "GAD", "JPR"],
             "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub2": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
+                "start": "10:00 AM",
+                "end": "12:00 PM"
             }
         },
         "break1": {
-            "title": ["Break"],
+            "title": ["lunch break"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "12:00 PM",
+                "end": "12:45 PM"
             }
         },
-        "sub3": {
-            "title": ["title"],
+        "sub2": {
+            "title": ["MIC"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "12:45 PM",
+                "end": "01:45 PM"
+            }
+        },
+        
+        "sub3": {
+            "title": ["SEN"],
+            "time": {
+                "start": "01:45 PM",
+                "end": "02:45 PM"
+            }
+        },
+        
+        "break2": {
+            "title": ["short break"],
+            "time": {
+                "start": "02:45 PM",
+                "end": "03:00 PM"
             }
         },
         "sub4": {
-            "title": ["title"],
+            "title": ["JPR"],
             "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "break2": {
-            "title": ["Break"],
-            "time": {
-                "start": "",
-                "end": ""
+                "start": "03:00 PM",
+                "end": "04:00 PM"
             }
         },
         "sub5": {
-            "title": ["title"],
+            "title": ["GAD"],
             "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub6": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
+                "start": "04:00 PM",
+                "end": "05:00 PM"
             }
         }
-    },
+    }, 
     "tuesday": {
         "sub1": {
-            "title": ["title"],
+            "title": ["JPR"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "10:00 AM",
+                "end": "11:00 AM"
             }
         },
         "sub2": {
-            "title": ["title"],
+            "title": ["DCC"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "11:00 AM",
+                "end": "12:00 PM"
             }
         },
         "break1": {
-            "title": ["Break"],
+            "title": ["long break"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "12:00 PM",
+                "end": "12:45 PM"
             }
         },
         "sub3": {
-            "title": ["title"],
+            "title": ["GAD"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "12:45 PM",
+                "end": "01:45 PM"
             }
         },
         "sub4": {
-            "title": ["title"],
+            "title": ["SEN"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "01:45 PM",
+                "end": "02:45 PM"
             }
         },
         "break2": {
-            "title": ["Break"],
+            "title": ["short break"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "02:45 PM",
+                "end": "03:00 PM"
             }
         },
         "sub5": {
-            "title": ["title"],
+            "title": ["DCC","JPR","SEN"],
             "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub6": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
+                "start": "03:00 PM",
+                "end": "05:00 PM"
             }
         }
-    },
+    },  
     "wednesday": {
         "sub1": {
-            "title": ["title"],
+            "title": ["MIC"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "10:00 AM",
+                "end": "11:00 AM"
             }
         },
         "sub2": {
-            "title": ["title"],
+            "title": ["JPR"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "11:00 AM",
+                "end": "12:00 PM"
             }
         },
         "break1": {
-            "title": ["Break"],
+            "title": ["long break"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "12:00 PM",
+                "end": "12:45 PM"
             }
         },
         "sub3": {
-            "title": ["title"],
+            "title": ["GAD","JPR","DCC"],
             "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub4": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
+                "start": "12:45 PM",
+                "end": "02:45 PM"
             }
         },
         "break2": {
-            "title": ["Break"],
+            "title": ["short break"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "02:45 PM",
+                "end": "03:00 PM"
             }
         },
-        "sub5": {
-            "title": ["title"],
+        "sub4": {
+            "title": ["JPR","MIC","GAD"],
             "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub6": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
+                "start": "03:00 PM",
+                "end": "05:00 PM"
             }
         }
     },
-    "thursday": {
-        "sub1": {
-            "title": ["title"],
+       
+   "thursday": {
+            "sub1": {
+             	"title": ["SEN"],
+                "time": {
+                    "start": "10:00 AM",
+                    "end": "11:00 PM"
+                }
+             },
+              "sub2": {
+            "title": ["DCC"],
             "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub2": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
+                "start": "11:00 AM",
+                "end": "12:00 PM"
             }
         },
         "break1": {
-            "title": ["Break"],
+            "title": ["long break"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "12:00 PM",
+                "end": "12:45 PM"
             }
         },
         "sub3": {
-            "title": ["title"],
+            "title": ["JPR","GAD","MIC"],
             "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub4": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
+                "start": "12:45 PM",
+                "end": "02:45 PM"
             }
         },
         "break2": {
-            "title": ["Break"],
+            "title": ["short break"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "02:45 PM",
+                "end": "03:00 PM"
+            },
+        "sub4": {
+            "title": ["SEN"],
+            "time": {
+                "start": "03:00 PM",
+                "end": "04:00 PM"
             }
+        
         },
         "sub5": {
-            "title": ["title"],
+            "title": ["DCC"],
             "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub6": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
+                "start": "04:00 PM",
+                "end": "05:00 PM"
             }
         }
     },
     "friday": {
         "sub1": {
-            "title": ["title"],
+            "title": ["DCC"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "10:00 AM",
+                "end": "11:00 AM"
             }
         },
         "sub2": {
-            "title": ["title"],
+            "title": ["MIC"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "11:00 AM",
+                "end": "12:00 PM"
             }
         },
         "break1": {
-            "title": ["Break"],
+            "title": ["long break"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "12:00 PM",
+                "end": "12:45 PM"
             }
         },
         "sub3": {
-            "title": ["title"],
+            "title": ["GAD","SEN","JPR"],
             "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub4": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
+                "start": "12:45 PM",
+                "end": "02:45 PM"
             }
         },
         "break2": {
-            "title": ["Break"],
+            "title": ["short break"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "02:45 PM",
+                "end": "03:00 PM"
             }
         },
-        "sub5": {
-            "title": ["title"],
+        "sub4": {
+            "title": ["SEN","DCC","GAD"],
             "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub6": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
+                "start": "03:00 PM",
+                "end": "05:00 PM"
             }
         }
     },
     "saturday": {
         "sub1": {
-            "title": ["title"],
+            "title": ["DCC"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "10:00 AM",
+                "end": "11;00 AM"
             }
         },
         "sub2": {
-            "title": ["title"],
+            "title": ["GAD"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "11:00 AM",
+                "end": "12:00 PM"
             }
         },
         "break1": {
-            "title": ["Break"],
+            "title": ["long break"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "12:00 PM",
+                "end": "12:45 PM"
             }
         },
         "sub3": {
-            "title": ["title"],
+            "title": ["JPR"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "12:45 PM",
+                "end": "01:45 PM"
             }
         },
         "sub4": {
-            "title": ["title"],
+            "title": ["MIC"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "01:45 PM",
+                "end": "02:45 PM"
             }
         },
         "break2": {
-            "title": ["Break"],
+            "title": ["short break"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "02:45 PM",
+                "end": "03:00 PM"
             }
         },
         "sub5": {
-            "title": ["title"],
+            "title": ["MIC"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "03:00 PM",
+                "end": "04:00 PM"
             }
         },
         "sub6": {
-            "title": ["title"],
+            "title": ["SEN-SA"],
             "time": {
-                "start": "",
-                "end": ""
+                "start": "04:00 PM",
+                "end": "05:00 PM"
             }
         }
-    },
+    }
+},
     "sunday": "Sutti a na bhendi"
 }
+        
+   
