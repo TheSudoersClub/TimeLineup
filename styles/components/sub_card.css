@@ -77,15 +77,15 @@
 
   overflow: visible;
   position: absolute;
-  background: #dcdcdc;
   border-radius: inherit;
   z-index: -1;
-
+  
   height: 100%;
   width: 100%;
 }
 
 .active-card {
+  background: #dcdcdc;
   animation: progress-bar var(--pb-animation-duration) forwards;
 }
 

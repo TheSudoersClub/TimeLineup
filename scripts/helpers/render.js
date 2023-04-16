@@ -6,9 +6,10 @@ function renderCurrentDayTime() {
   const currentDate = new Date();
 
   // Get the current date and time
-  const day = currentDate.toLocaleString("en-US", {
-    weekday: "long",
-  }).toLowerCase();
+  // const day = currentDate.toLocaleString("en-US", {
+  //   weekday: "long",
+  // }).toLowerCase();
+  let day = "tuesday"
 
   // get current hours and minutes
   let hours = currentDate.getHours();
@@ -114,7 +115,9 @@ function renderCards(offDays) {
               // get the height according to the titles
               const height = 5 * title.length;
 
-              const { time } = renderCurrentDayTime();
+              const {
+                time
+              } = renderCurrentDayTime();
               // render card
               screen.innerHTML += `
                 <div class="card-container" style="min-height: ${height}rem;">
@@ -143,7 +146,7 @@ function renderCards(offDays) {
   }
 }
 
-// check disabled cards
+// check disabled cards for current day 
 function checkDisableCards(day, offDays) {
   // for off days
   if (offDays.includes(day)) {
@@ -188,7 +191,9 @@ function checkDisableCards(day, offDays) {
       const endTime = subjectObject.time.end;
 
       // current time
-      let { time } = renderCurrentDayTime();
+      let {
+        time
+      } = renderCurrentDayTime();
 
       // decrement time by one minute
       time = incrementTimeByOneMinute(time);
@@ -221,9 +226,7 @@ function checkDisableCards(day, offDays) {
 
         // render subject data in screen
         screen.innerHTML += `
-          <div class="card-container" style="min-height: ${height}rem; opacity: ${
-          isTimeBetween(startTime, endTime, time) ? "1" : "0.5"
-        }">
+          <div class="card-container" style="min-height: ${height}rem; opacity: ${isTimePassed(endTime, time) ? "1" : "0.5"}">
             <div class="card-foreground">
               <div class="progress-bar ${(isTimeBetween(startTime, endTime, time) ? "active-card" : "")}"></div>  
                 <div class="subject-card-title-wrapper">
@@ -234,10 +237,7 @@ function checkDisableCards(day, offDays) {
                     .join("")}
                 </div>
                 <div class="subject-card-time-wrapper">
-                  <span id="subject-card-time">${startTime.replace(
-                    /\b(AM|PM)\b/gi,
-                    ""
-                  )} - ${endTime.replace(/\b(AM|PM)\b/gi, "")}</span>
+                  <span id="subject-card-time">${startTime.replace(/\b(AM|PM)\b/gi, "")} - ${endTime.replace(/\b(AM|PM)\b/gi, "")}</span>
                 </div>
             </div>
             <div class="card-background" style="--card-clr: ${randomColor};"></div>

@@ -100,3 +100,11 @@ function isTimeBetween(start, end, timeToCheck) {
 
   return time.getTime() >= startDate.getTime() && time.getTime() <= endDate.getTime();
 }
+
+// check weather the time is passed the deadline or not
+function isTimePassed(endTime, timeToCheck) {
+  const now = new Date(`2000/01/01 ${timeToCheck}`);
+  const end = new Date(`2000/01/01 ${endTime}`);
+
+  return now < end;
+}

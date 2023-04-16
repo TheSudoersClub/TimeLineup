@@ -57,51 +57,51 @@ let timeTableData = {
     "sub1": {
       "title": ["title1"],
       "time": {
-        "start": "10:00 AM",
-        "end": "11:00 AM"
+        "start": "04:00 PM",
+        "end": "05:00 PM"
       }
     },
     "sub2": {
       "title": ["title2"],
       "time": {
-        "start": "10:00 AM",
-        "end": "11:00 AM"
+        "start": "05:00 PM",
+        "end": "06:00 PM"
       }
     },
     "break1": {
       "title": ["lunch break"],
       "time": {
-        "start": "10:00 AM",
-        "end": "11:00 AM"
+        "start": "06:00 PM",
+        "end": "7:00 PM"
       }
     },
     "sub3": {
       "title": ["DCC", "SEN", "JAVA"],
       "time": {
-        "start": "10:00 AM",
-        "end": "11:00 AM"
+        "start": "06:00 PM",
+        "end": "07:00 PM"
       }
     },
     
     "break2": {
       "title": ["short break"],
       "time": {
-        "start": "10:00 AM",
-        "end": "11:00 AM"
+        "start": "07:00 PM",
+        "end": "08:00 PM"
       }
     },
     "sub4": {
       "title": ["title5"],
       "time": {
-        "start": "10:00 AM",
-        "end": "11:00 AM"
+        "start": "07:00 PM",
+        "end": "08:00 PM"
       }
     },
     "sub5": {
       "title": ["title6"],
       "time": {
-        "start": "10:00 AM",
-        "end": "11:00 AM"
+        "start": "08:00 PM",
+        "end": "09:00 PM"
       }
     }
   },
