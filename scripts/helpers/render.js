@@ -246,3 +246,14 @@ function checkDisableCards(day, offDays) {
     }
   }
 }
+
+
+
+
+function scrollToTop() {
+  let screens = document.querySelectorAll(".screen")
+
+  screens.forEach((screen) => {
+    screen.scrollTo(0, 0);
+  })
+}
