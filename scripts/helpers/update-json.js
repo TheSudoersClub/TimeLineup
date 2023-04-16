@@ -1,22 +1,26 @@
 const updateJsonBtn = document.getElementById("choose-file")
-// const updateJsonBtn = document.querySelector("input[type=file]")
+
+// trigger when the user selects the file
 updateJsonBtn.addEventListener("change", () => {
     const file = updateJsonBtn.files[0];
     const reader = new FileReader();
     reader.onload = (event) => {
         const jsonData = event.target.result;
 
+        // check for correct JSON format
         let data;
         try {
-             data = JSON.parse(jsonData);
-            
+            data = JSON.parse(jsonData);
+
         } catch (error) {
             console.error(error)
-            return 
+            return
         }
 
+        // set the data to the localStorage
         localStorage.setItem('timeTableData', JSON.stringify(data));
-        
+
+        // set timeTableData from localstorage
         timeTableData = JSON.parse(localStorage.getItem("timeTableData"))
 
         // get the day and time
@@ -42,8 +46,5 @@ updateJsonBtn.addEventListener("change", () => {
         // render current day and time cards accordingly
         checkDisableCards(day, offDays)
     };
-    // console.log("adi")
     reader.readAsText(file)
-
-
 })

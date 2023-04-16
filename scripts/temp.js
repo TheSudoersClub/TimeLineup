@@ -5,8 +5,8 @@
 //     "sub1": {
 //       "title": ["title1", "title2", "title3"],
 //       "time": {
-//         "start": "10:00 AM",
-//         "end": "08:00 PM"
+//         "start": "",
+//         "end": ""
 //       }
 //     },
 //     "break1": {
@@ -19,15 +19,15 @@
 //     "sub2": {
 //       "title": ["title3  "],
 //       "time": {
-//         "start": "08:00 PM",
-//         "end": "09:00 PM"
+//         "start": "12:17 AM",
+//         "end": "12:18 AM"
 //       }
 //     },
 //     "sub3": {
 //       "title": ["title4"],
 //       "time": {
-//         "start": "10:00 AM",
-//         "end": "11:00 AM"
+//         "start": "12:18 AM",
+//         "end": "12:20 AM"
 //       }
 //     },
 //     "break2": {
@@ -40,15 +40,15 @@
 //     "sub4": {
 //       "title": ["title5"],
 //       "time": {
-//         "start": "10:00 AM",
-//         "end": "11:00 AM"
+//         "start": "12:52 AM",
+//         "end": "12:54 AM"
 //       }
 //     },
 //     "sub5": {
 //       "title": ["title6"],
 //       "time": {
-//         "start": "10:00 AM",
-//         "end": "11:00 AM"
+//         "start": "12:54 AM",
+//         "end": "12:59 AM"
 //       }
 //     }
 //   },

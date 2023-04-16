@@ -6,10 +6,9 @@ function renderCurrentDayTime() {
   const currentDate = new Date();
 
   // Get the current date and time
-  // const day = currentDate.toLocaleString("en-US", {
-  //   weekday: "long",
-  // }).toLowerCase();
-  let day = "tuesday"
+  const day = currentDate.toLocaleString("en-US", {
+    weekday: "long",
+  }).toLowerCase();
 
   // get current hours and minutes
   let hours = currentDate.getHours();
@@ -241,9 +240,9 @@ function checkDisableCards(day, offDays) {
 
         // render subject data in screen
         screen.innerHTML += `
-          <div class="card-container" style="min-height: ${height}rem; opacity: ${isTimePassed(endTime, incrementTimeByOneMinute(time)) ? "1" : "0.5"}">
+          <div class="card-container" style="min-height: ${height}rem; opacity: ${isTimePassed(endTime, time) ? "1" : "0.5"}">
             <div class="card-foreground">
-              <div class="progress-bar" id="${(isTimeBetween(startTime, endTime, incrementTimeByOneMinute(time)) ? "active-card" : "")}"></div>  
+              <div class="progress-bar" id="${isTimeBetween(startTime,endTime,time) && isTimePassed(endTime, time) ? "active-card" : ""}"></div>  
                 <div class="subject-card-title-wrapper">
                   ${title.map((e) => { return `<h1 id="subject-card-title">${e}</h1>`;})
                     .join("")}
@@ -258,7 +257,6 @@ function checkDisableCards(day, offDays) {
     }
   }
 }
-
 
 // scroll to the top of the screen
 function scrollToTop() {
