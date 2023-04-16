@@ -221,9 +221,6 @@ function checkDisableCards(day, offDays) {
         // get the height according to the titles
         const height = 5 * title.length;
 
-        console.log(startTime, endTime, time);
-        console.log(isTimeBetween(startTime, endTime, time));
-
         // render subject data in screen
         screen.innerHTML += `
           <div class="card-container" style="min-height: ${height}rem; opacity: ${isTimePassed(endTime, time) ? "1" : "0.5"}">

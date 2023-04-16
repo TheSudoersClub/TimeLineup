@@ -5,7 +5,6 @@ window.addEventListener("load", () => {
     const {
         day
     } = renderCurrentDayTime();
-    console.log(day)
 
     // render screens
     renderScreens()
@@ -175,7 +174,6 @@ function setScreenOpacity(day) {
     screens.forEach((screen) => {
         // set opacity of all screens to 0.5 except current day screen
         if (screen.id !== day) {
-            console.log()
             screen.style.opacity = "0.5";
         }
     });

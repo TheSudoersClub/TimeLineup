@@ -18,7 +18,6 @@ editIcon.addEventListener("click", () => {
 });
 
 document.addEventListener("click", function (e) {
-    console.log(e.target);
     if (e.target != editIconImg && !editMenu.contains(e.target)) {
         editMenuToggleOff();
         menuToggle = !menuToggle;

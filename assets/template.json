@@ -1,0 +1,351 @@
+{
+    "monday": {
+        "sub1": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub2": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "break1": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub3": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub4": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "break2": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub5": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub6": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        }
+    },
+    "tuesday": {
+        "sub1": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub2": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "break1": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub3": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub4": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "break2": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub5": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub6": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        }
+    },
+    "wednesday": {
+        "sub1": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub2": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "break1": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub3": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub4": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "break2": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub5": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub6": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        }
+    },
+    "thursday": {
+        "sub1": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub2": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "break1": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub3": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub4": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "break2": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub5": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub6": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        }
+    },
+    "friday": {
+        "sub1": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub2": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "break1": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub3": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub4": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "break2": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub5": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub6": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        }
+    },
+    "saturday": {
+        "sub1": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub2": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "break1": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub3": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub4": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "break2": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub5": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        },
+        "sub6": {
+            "title": "",
+            "time": {
+                "start": "",
+                "end": ""
+            }
+        }
+    },
+    "sunday": "Sutti a na bhendi"
+}
