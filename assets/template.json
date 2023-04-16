@@ -1,351 +1,344 @@
 {
-    "monday": {
-        "sub1": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub2": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "break1": {
-            "title": ["Break"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub3": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub4": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "break2": {
-            "title": ["Break"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub5": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub6": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        }
-    },
-    "tuesday": {
-        "sub1": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub2": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "break1": {
-            "title": ["Break"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub3": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub4": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "break2": {
-            "title": ["Break"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub5": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub6": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        }
-    },
-    "wednesday": {
-        "sub1": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub2": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "break1": {
-            "title": ["Break"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub3": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub4": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "break2": {
-            "title": ["Break"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub5": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub6": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        }
-    },
-    "thursday": {
-        "sub1": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub2": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "break1": {
-            "title": ["Break"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub3": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub4": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "break2": {
-            "title": ["Break"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub5": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub6": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        }
-    },
-    "friday": {
-        "sub1": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub2": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "break1": {
-            "title": ["Break"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub3": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub4": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "break2": {
-            "title": ["Break"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub5": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub6": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        }
-    },
-    "saturday": {
-        "sub1": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub2": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "break1": {
-            "title": ["Break"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub3": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub4": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "break2": {
-            "title": ["Break"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub5": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        },
-        "sub6": {
-            "title": ["title"],
-            "time": {
-                "start": "",
-                "end": ""
-            }
-        }
-    },
-    "sunday": "Sutti a na bhendi"
+	"monday": {
+		"sub1": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub2": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"break1": {
+			"title": ["Break"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub3": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub4": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"break2": {
+			"title": ["Break"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub5": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub6": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		}
+	},
+	"tuesday": {
+		"sub1": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub2": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"break1": {
+			"title": ["Break"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub3": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub4": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"break2": {
+			"title": ["Break"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub5": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub6": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		}
+	},
+	"wednesday": {
+		"sub1": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub2": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"break1": {
+			"title": ["Break"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub3": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub4": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"break2": {
+			"title": ["Break"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub5": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub6": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		}
+	},
+	"thursday": {
+		"sub1": {
+			"title": ["SEN"],
+			"time": {
+				"start": "10:00AM",
+				"end": "11:00PM"
+			}
+		},
+		"sub2": {
+			"title": ["Dcc"],
+			"time": {
+				"start": "11:00AM",
+				"end": "12:00PM"
+			}
+		},
+		"break1": {
+			"title": ["LunchBreak"],
+			"time": {
+				"start": "12:00PM",
+				"end": "12:45PM"
+			}
+		},
+		"sub3": {
+			"title": ["JPR", "GAD", "MIC"],
+			"time": {
+				"start": "12:45PM",
+				"end": "02:45PM"
+			}
+		},
+		"break2": {
+			"title": ["ShortBreak"],
+			"time": {
+				"start": "02:45PM",
+				"end": "03:00PM"
+			}
+		},
+		"sub4": {
+			"title": ["SEN"],
+			"time": {
+				"start": "3:00PM",
+				"end": "4:00PM"
+			}
+		},
+		"sub5": {
+			"title": ["DCC"],
+			"time": {
+				"start": "04:00PM",
+				"end": "05:00PM"
+			}
+		}
+	},
+	"friday": {
+		"sub1": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub2": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"break1": {
+			"title": ["Break"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub3": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub4": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"break2": {
+			"title": ["Break"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub5": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub6": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		}
+	},
+	"saturday": {
+		"sub1": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub2": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"break1": {
+			"title": ["Break"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub3": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub4": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"break2": {
+			"title": ["Break"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub5": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub6": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
+			}
+		}
+	},
+	"sunday": "Sutti a na bhendi"
 }
