@@ -6,3 +6,10 @@ let allStartTimes = [];
 
 // off days array 
 let offDays = ["sunday"]
+
+let timeTableData
+
+window.addEventListener("load", () => {
+    timeTableData = JSON.parse(localStorage.getItem("timeTableData"))
+
+})

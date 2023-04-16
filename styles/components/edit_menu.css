@@ -20,15 +20,38 @@
 
 .toggle-on {
   animation: edit-menu-toggle-on 0.5s forwards;
-  animation-timing-function: cubic-bezier(.34,.09,.23,1.06)
+  animation-timing-function: cubic-bezier(.34, .09, .23, 1.06)
 }
 
 .toggle-off {
   animation: edit-menu-toggle-off 0.5s forwards;
-  animation-timing-function: cubic-bezier(.34,.09,.23,1.06)
+  animation-timing-function: cubic-bezier(.34, .09, .23, 1.06)
+}
+
+.update-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#choose-file{
+    display: none;
+}
+
+label
+{
+  text-align: center;
+  font-size: 13.33px;
+  padding: 1rem 0.8rem;
+  border-radius: 50px;
+  border: 0.15rem solid var(--txt-clr);
+  width: 50vw;
+  font-weight: 600;
+  background: var(--bg-clr);
 }
 
 button {
+  
   padding: 1rem 0.8rem;
   border-radius: 50px;
   border: 0.15rem solid var(--txt-clr);
