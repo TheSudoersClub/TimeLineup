@@ -1,0 +1,20 @@
+#default-screen {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6rem;
+
+  display: none;
+}
+
+#default-screen .logo img {
+  width: 10rem;
+  transform: translateY(-2rem);
+}
+
+#default-screen .controls{
+    display: grid;
+    gap: 2rem;
+}

@@ -17,7 +17,7 @@
   <script src="scripts/helpers/toggle.js" defer></script>
   <script src="scripts/helpers/download-template.js" defer></script>
   <script src="scripts/helpers/update-json.js" defer></script>
-  
+
   <script src="scripts/temp.js" defer></script>
 
 
@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="styles/components/edit_menu.css" />
   <link rel="stylesheet" href="styles/components/screen.css" />
   <link rel="stylesheet" href="styles/components/sub_card.css" />
+  <link rel="stylesheet" href="styles/components/default_screen.css" />
 
   <!-- fonts  -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -61,9 +62,25 @@
       <input type="file" id="choose-file">
     </div>
     <div class="download-container">
-      <button id="download-template-btn">Download Template</button>
+      <button class="download-template-btn">Download Template</button>
     </div>
   </div>
+
+  <div id="default-screen">
+    <div class="logo">
+      <img src="assets/logo.png" alt="TimeLineUp logo">
+    </div>
+    <div class="controls">
+      <div class="update-container">
+        <label for="choose-file" id="update-json-btn">Update/Add JSON</label>
+        <input type="file" id="choose-file">
+      </div>
+      <div class="download-container">
+        <button class="download-template-btn">Download Template</button>
+      </div>
+    </div>
+  </div>
+  
 </body>
 
 </html>

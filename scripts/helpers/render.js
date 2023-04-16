@@ -19,9 +19,8 @@ function renderCurrentDayTime() {
 
   hours = hours % 12;
   hours = hours ? hours : 12;
-  const time = `${hours < 10 ? "0" + hours : hours}:${
-    minutes < 10 ? "0" + minutes : minutes
-  } ${ampm}`;
+  const time = `${hours < 10 ? "0" + hours : hours}:${minutes < 10 ? "0" + minutes : minutes
+    } ${ampm}`;
 
   // Return day and time object
   return {
@@ -37,11 +36,16 @@ function renderScreens() {
 
   // render default screen if user don't have added the json
   if (timeTableData === null) {
-    container.innerHTML += `<div id="default-screen">hello world</div>`;
-  }
+    document.querySelector('.edit-icon').style.display = "none";
 
+    document.getElementById('default-screen').style.display = "flex";
+  }
+  
   // render screens according to the added json
   else {
+    document.getElementById('default-screen').style.display = "none";
+    document.querySelector('.edit-icon').style.display = "block";
+
     // reset container
     container.innerHTML = "";
 
@@ -135,16 +139,16 @@ function renderCards(offDays) {
                   <div class="card-foreground">
                       <div class="subject-card-title-wrapper">
                         ${title
-                          .map((e) => {
-                            return `<h1 id="subject-card-title">${e}</h1>`;
-                          })
-                          .join("")}
+                  .map((e) => {
+                    return `<h1 id="subject-card-title">${e}</h1>`;
+                  })
+                  .join("")}
                       </div>
                       <div class="subject-card-time-wrapper">
                         <span id="subject-card-time">${startTime.replace(
-                          /\b(AM|PM)\b/gi,
-                          ""
-                        )} - ${endTime.replace(/\b(AM|PM)\b/gi, "")}</span>
+                    /\b(AM|PM)\b/gi,
+                    ""
+                  )} - ${endTime.replace(/\b(AM|PM)\b/gi, "")}</span>
                       </div>
                   </div>
                   <div class="card-background" style="--card-clr: ${randomColor};"></div>
@@ -254,10 +258,10 @@ function checkDisableCards(day, offDays) {
         screen.innerHTML += `
           <div class="card-container" style="min-height: ${height}rem; opacity: ${isTimePassed(endTime, time) ? "1" : "0.5"}">
             <div class="card-foreground">
-              <div class="progress-bar" id="${isTimeBetween(startTime,endTime,time) && isTimePassed(endTime, time) ? "active-card" : ""}"></div>  
+              <div class="progress-bar" id="${isTimeBetween(startTime, endTime, time) && isTimePassed(endTime, time) ? "active-card" : ""}"></div>  
                 <div class="subject-card-title-wrapper">
-                  ${title.map((e) => { return `<h1 id="subject-card-title">${e}</h1>`;})
-                    .join("")}
+                  ${title.map((e) => { return `<h1 id="subject-card-title">${e}</h1>`; })
+            .join("")}
                 </div>
                 <div class="subject-card-time-wrapper">
                   <span id="subject-card-time">${startTime.replace(/\b(AM|PM)\b/gi, "")} - ${endTime.replace(/\b(AM|PM)\b/gi, "")}</span>
