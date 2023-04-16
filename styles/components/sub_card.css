@@ -84,14 +84,14 @@
   width: 100%;
 }
 
-.active-card {
+#active-card {
   background: #dcdcdc;
   animation: progress-bar var(--pb-animation-duration) forwards;
 }
 
 @keyframes progress-bar {
   from {
-    width: 0;
+    width: var(--start-width);
   }
   to {
     width: 100%;

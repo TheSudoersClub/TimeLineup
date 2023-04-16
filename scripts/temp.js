@@ -93,17 +93,17 @@ let timeTableData = {
     "sub4": {
       "title": ["title5"],
       "time": {
-        "start": "07:00 PM",
-        "end": "08:00 PM"
+        "start": "09:10 PM",
+        "end": "09:12 PM"
       }
     },
     "sub5": {
       "title": ["title6"],
       "time": {
-        "start": "08:00 PM",
-        "end": "09:00 PM"
+        "start": "09:12 PM",
+        "end": "10:00 PM"
       }
-    }
+    } 
   },
   "wednesday": {
 

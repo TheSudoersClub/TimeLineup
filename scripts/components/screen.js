@@ -1,4 +1,3 @@
-
 // load function
 window.addEventListener("load", () => {
     // get the day and time
@@ -13,7 +12,7 @@ window.addEventListener("load", () => {
     renderCards(offDays)
 
     // get the AllEndTimes array for current day
-    getAllEndTimes(day, offDays);
+    getAllEndAndStartTimes(day, offDays);
 
     // set the opacity of all screen accordingly
     setScreenOpacity(day);
@@ -31,12 +30,24 @@ window.addEventListener("load", () => {
         } = renderCurrentDayTime();
 
         // rerender the cards if one lecture or card time have been end
-        if (allEndTimes.includes(time)) {
+        if (allEndTimes.includes(time) || allStartTimes.includes(time)) {
+            // update end time array
             for (let i = allEndTimes.length - 1; i >= 0; i--) {
                 if (allEndTimes[i] === time) {
                     allEndTimes.splice(i, 1);
                 }
+
             }
+            
+            // update start time array
+            for (let i = allStartTimes.length - 1; i >= 0; i--) {
+                // update times array
+                if (allStartTimes[i] === time) {
+                    allStartTimes.splice(i, 1);
+                }
+            }
+
+            // update cards if startTime or endTime triggers
             checkDisableCards(day, offDays);
         }
     }, 2000);

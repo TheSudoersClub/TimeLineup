@@ -1,5 +1,5 @@
 // get the all lecture ending Times in an array
-function getAllEndTimes(day, offDays) {
+function getAllEndAndStartTimes(day, offDays) {
   // exit if the day is in offDays array
   if (offDays.includes(day)) {
     return
@@ -11,6 +11,12 @@ function getAllEndTimes(day, offDays) {
 
       // get the subject's object wrt day
       const subjectObject = timeTableData[day][subject];
+
+      // lecture starting time
+      const startTime = subjectObject.time.start;
+      // add the endTime to the array
+      allStartTimes.push(startTime)
+
 
       // lecture ending time
       const endTime = subjectObject.time.end;
@@ -107,4 +113,32 @@ function isTimePassed(endTime, timeToCheck) {
   const end = new Date(`2000/01/01 ${endTime}`);
 
   return now < end;
+}
+
+// calculate remaining time percentage
+function calculateTimeRemainingInPercentage(startTime, endTime, currentTime) {
+  // convert time strings to Date objects
+  const startDate = new Date(`01/01/2000 ${startTime}`);
+  const endDate = new Date(`01/01/2000 ${endTime}`);
+  const currentDate = new Date(`01/01/2000 ${currentTime}`);
+
+  // calculate percentage of time completed
+  const totalTime = endDate - startDate;
+  const elapsedTime = currentDate - startDate;
+  const percentComplete = (elapsedTime / totalTime) * 100;
+
+  return (percentComplete > 0 && percentComplete < 100) ? (percentComplete) : 0;
+}
+
+// calculate time remaining in seconds
+function calculateTimeRemainingInSeconds(startTime, endTime, currentTime) {
+  // convert time strings to Date objects
+  const startDate = new Date(`01/01/2000 ${startTime}`);
+  const endDate = new Date(`01/01/2000 ${endTime}`);
+  const currentDate = new Date(`01/01/2000 ${currentTime}`);
+
+  // calculate remaining time in seconds
+  const remainingTimeInSeconds = (endDate - currentDate) / 1000;
+
+  return (remainingTimeInSeconds > 0) ? remainingTimeInSeconds : 0;
 }

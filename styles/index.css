@@ -3,6 +3,7 @@
   --bg-clr: whitesmoke;
   --txt-clr: rgb(35, 35, 35);
   --pb-animation-duration: 15s;
+  --start-width: 0;
 }
 
 /* resets  */

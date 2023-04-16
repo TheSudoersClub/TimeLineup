@@ -1,5 +1,8 @@
 // get all end times array of current day
 let allEndTimes = [];
 
+// get all Start times array of current day
+let allStartTimes = [];
+
 // off days array 
 let offDays = ["sunday"]

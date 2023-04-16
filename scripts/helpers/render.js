@@ -191,12 +191,9 @@ function checkDisableCards(day, offDays) {
       const endTime = subjectObject.time.end;
 
       // current time
-      let {
+      const {
         time
       } = renderCurrentDayTime();
-
-      // decrement time by one minute
-      time = incrementTimeByOneMinute(time);
 
       // render break data in screen
       if (subject.startsWith("break")) {
@@ -221,16 +218,34 @@ function checkDisableCards(day, offDays) {
         // get the height according to the titles
         const height = 5 * title.length;
 
+
+        // set progress bar animation
+        let initialWidth;
+        let animationDuration;
+
+        if (isTimeBetween(startTime, endTime, time)) {
+
+          // progress-bar animations
+          initialWidth = calculateTimeRemainingInPercentage(startTime, endTime, time);
+
+          // calculate time remaining (animation duration)
+          animationDuration = calculateTimeRemainingInSeconds(startTime, endTime, time);
+
+          // set animation duration
+          setCSSVariable("pb-animation-duration", `${animationDuration}s`);
+
+          // set initialWidth 
+          setCSSVariable("start-width", `${initialWidth}%`)
+
+        }
+
         // render subject data in screen
         screen.innerHTML += `
-          <div class="card-container" style="min-height: ${height}rem; opacity: ${isTimePassed(endTime, time) ? "1" : "0.5"}">
+          <div class="card-container" style="min-height: ${height}rem; opacity: ${isTimePassed(endTime, incrementTimeByOneMinute(time)) ? "1" : "0.5"}">
             <div class="card-foreground">
-              <div class="progress-bar ${(isTimeBetween(startTime, endTime, time) ? "active-card" : "")}"></div>  
+              <div class="progress-bar" id="${(isTimeBetween(startTime, endTime, incrementTimeByOneMinute(time)) ? "active-card" : "")}"></div>  
                 <div class="subject-card-title-wrapper">
-                  ${title
-                    .map((e) => {
-                      return `<h1 id="subject-card-title">${e}</h1>`;
-                    })
+                  ${title.map((e) => { return `<h1 id="subject-card-title">${e}</h1>`;})
                     .join("")}
                 </div>
                 <div class="subject-card-time-wrapper">
@@ -245,12 +260,16 @@ function checkDisableCards(day, offDays) {
 }
 
 
-
-
+// scroll to the top of the screen
 function scrollToTop() {
   let screens = document.querySelectorAll(".screen")
 
   screens.forEach((screen) => {
     screen.scrollTo(0, 0);
   })
+}
+
+// set the css variable values
+function setCSSVariable(variableName, variableValue) {
+  document.documentElement.style.setProperty(`--${variableName}`, variableValue);
 }
