@@ -124,6 +124,9 @@ function setupScreens() {
     // setup the screens opacity accordingly
     setScreenOpacity(day);
 
+    // scroll to top
+    scrollToTop();
+
 }
 
 // Define a variable to keep track of whether the initial slide has been displayed
