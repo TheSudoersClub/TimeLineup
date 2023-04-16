@@ -42,6 +42,9 @@ function renderScreens() {
 
   // render screens according to the added json
   else {
+    // reset container
+    container.innerHTML = "";
+
     // loop through the days in timeTable
     for (const day in timeTableData) {
       if (timeTableData.hasOwnProperty(day)) {

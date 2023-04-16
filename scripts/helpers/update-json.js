@@ -17,6 +17,9 @@ updateJsonBtn.addEventListener("change", () => {
             return
         }
 
+        // reset old timeTableData
+        localStorage.removeItem(("timeTableData"));
+        
         // set the data to the localStorage
         localStorage.setItem('timeTableData', JSON.stringify(data));
 
