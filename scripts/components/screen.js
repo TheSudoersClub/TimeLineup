@@ -10,11 +10,35 @@ window.addEventListener("load", () => {
     // render subject Cards
     renderCards()
 
+    // get the AllEndTimes array for current day
+    getAllEndTimes(day);
+
     // set the opacity of all screen accordingly
-    setScreenOpacity(day);
+    setScreenOpacity(day.toLowerCase());
 
     // load the current day slide
     showSlide(day.toLowerCase());
+
+    // render current day and time cards accordingly
+    checkDisableCards(day.toLowerCase())
+
+    // rerender all cards for the any endTime trigger
+    setInterval(() => {
+        const {
+            time
+        } = renderCurrentDayTime();
+
+        // rerender the cards if one lecture or card time have been end
+        if (allEndTimes.includes(time)) {
+            for (let i = allEndTimes.length - 1; i >= 0; i--) {
+                if (allEndTimes[i] === time) {
+                    allEndTimes.splice(i, 1);
+                }
+            }
+            console.log("hello world")
+            checkDisableCards(day);
+        }
+    }, 2000);
 
 });
 
@@ -96,7 +120,7 @@ function setupScreens() {
     } = renderCurrentDayTime();
 
     // setup the screens opacity accordingly
-    setScreenOpacity(day);
+    setScreenOpacity(day.toLowerCase());
 
 }
 
@@ -145,19 +169,18 @@ function setScreenOpacity(day) {
 
     screens.forEach((screen) => {
         // set opacity of all screens to 0.5 except current day screen
-        if (screen.id !== day.toLowerCase()) {
+        if (screen.id !== day) {
             console.log()
             screen.style.opacity = "0.5";
         }
     });
 
-
     // change the opacity respective day header
     const headerDay = document.getElementById("day");
 
     // highlight the screen and day
-    if (headerDay.innerText === day) {
-        document.getElementById(day.toLowerCase()).style.opacity = "1";
+    if (headerDay.innerText.toLowerCase() === day) {
+        document.getElementById(day).style.opacity = "1";
         headerDay.style.opacity = "1";
     } else {
         headerDay.style.opacity = "0.5";
