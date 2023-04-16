@@ -1,4 +1,8 @@
 window.addEventListener("load", () => {
+    // get the day and time
+    const {
+        day
+    } = renderCurrentDayTime();
 
     // render screens
     renderScreens()
@@ -6,17 +10,22 @@ window.addEventListener("load", () => {
     // render subject Cards
     renderCards()
 
-    // get the day and time
-    const {
-        day
-    } = renderCurrentDayTime();
+    // set the opacity of all screen accordingly
+    setScreenOpacity(day);
 
     // load the current day slide
     showSlide(day.toLowerCase());
 
 });
 
-// Defines a function to set up the screens in the carousel
+// Get the container element and add a scroll event listener to it
+const container = document.getElementById("container");
+container.addEventListener("scroll", () => {
+    // Call the setupScreens function whenever the container is scrolled
+    setupScreens();
+});
+
+// Defines a function to set up the screens 
 function setupScreens() {
 
     // Get the container and all the screens
@@ -81,32 +90,13 @@ function setupScreens() {
         yDown = null;
     }
 
-
-    // change the opacity respective day
-    const headerDay = document.getElementById("day");
-
     // get the day and time
     const {
         day
     } = renderCurrentDayTime();
 
-    // highlight the screen and day
-    if (headerDay.innerText === day) {
-        document.getElementById(day.toLowerCase()).style.opacity = "1";
-        headerDay.style.opacity = "1";
-    }
-
-    // disable the other days screens
-    else {
-        screens.forEach((screen) => {
-            // set opacity of all screens to 0.5 except current day screen
-            if (screen.id !== day.toLowerCase()) {
-                console.log()
-                screen.style.opacity = "0.5";
-            }
-        });
-        headerDay.style.opacity = "0.5";
-    }
+    // setup the screens opacity accordingly
+    setScreenOpacity(day);
 
 }
 
@@ -149,9 +139,28 @@ function showSlide(slideId) {
     }
 }
 
-// Get the container element and add a scroll event listener to it
-const container = document.getElementById("container");
-container.addEventListener("scroll", () => {
-    // Call the setupScreens function whenever the container is scrolled
-    setupScreens();
-});
+// set the opacity of the screens accordingly
+function setScreenOpacity(day) {
+    const screens = document.querySelectorAll(".screen");
+
+    screens.forEach((screen) => {
+        // set opacity of all screens to 0.5 except current day screen
+        if (screen.id !== day.toLowerCase()) {
+            console.log()
+            screen.style.opacity = "0.5";
+        }
+    });
+
+
+    // change the opacity respective day header
+    const headerDay = document.getElementById("day");
+
+    // highlight the screen and day
+    if (headerDay.innerText === day) {
+        document.getElementById(day.toLowerCase()).style.opacity = "1";
+        headerDay.style.opacity = "1";
+    } else {
+        headerDay.style.opacity = "0.5";
+    }
+
+}

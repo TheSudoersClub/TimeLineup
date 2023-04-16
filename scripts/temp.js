@@ -5,50 +5,50 @@ let timeTableData = {
     "sub1": {
       "title": ["title1", "title2", "title3"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "break1": {
       "title": ["lunch break"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub2": {
       "title": ["title3  "],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub3": {
       "title": ["title4"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "break2": {
       "title": ["short break"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub4": {
       "title": ["title5"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub5": {
       "title": ["title6"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     }
   },
@@ -57,51 +57,51 @@ let timeTableData = {
     "sub1": {
       "title": ["title1"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub2": {
       "title": ["title2"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "break1": {
       "title": ["lunch break"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub3": {
       "title": ["DCC", "SEN", "JAVA"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     
     "break2": {
       "title": ["short break"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub4": {
       "title": ["title5"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub5": {
       "title": ["title6"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     }
   },
@@ -110,57 +110,57 @@ let timeTableData = {
     "sub1": {
       "title": ["title1"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub2": {
       "title": ["title2"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "break1": {
       "title": ["lunch break"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub3": {
       "title": ["title3"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub4": {
       "title": ["title4"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "break2": {
       "title": ["short break"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub5": {
       "title": ["title5"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub6": {
       "title": ["title6"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     }
   },
@@ -169,57 +169,57 @@ let timeTableData = {
     "sub1": {
       "title": ["title1"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub2": {
       "title": ["title2"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "break1": {
       "title": ["lunch break"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub3": {
       "title": ["title3"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub4": {
       "title": ["title4"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "break2": {
       "title": ["short break"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub5": {
       "title": ["title5"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub6": {
       "title": ["title6"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     }
   },
@@ -228,57 +228,57 @@ let timeTableData = {
     "sub1": {
       "title": ["title1"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub2": {
       "title": ["title2"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "break1": {
       "title": ["lunch break"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub3": {
       "title": ["title3"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub4": {
       "title": ["title4"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "break2": {
       "title": ["short break"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub5": {
       "title": ["title5"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub6": {
       "title": ["title6"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     }
   },
@@ -287,71 +287,71 @@ let timeTableData = {
     "sub1": {
       "title": ["title1"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub2": {
       "title": ["title2"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "break1": {
       "title": ["lunch break"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub3": {
       "title": ["title3"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub4": {
       "title": ["title4"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "break2": {
       "title": ["short break"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub5": {
       "title": ["title5"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub6": {
       "title": ["title6"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub5": {
       "title": ["title5"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     },
     "sub6": {
       "title": ["title6"],
       "time": {
-        "start": "start time",
-        "end": "end time"
+        "start": "10:00 am",
+        "end": "05:00 pm"
       }
     }
   },
