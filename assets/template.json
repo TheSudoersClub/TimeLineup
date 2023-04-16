@@ -175,52 +175,59 @@
 	},
 	"thursday": {
 		"sub1": {
-			"title": ["SEN"],
+			"title": ["title"],
 			"time": {
-				"start": "10:00AM",
-				"end": "11:00PM"
+				"start": "",
+				"end": ""
 			}
 		},
 		"sub2": {
-			"title": ["Dcc"],
+			"title": ["title"],
 			"time": {
-				"start": "11:00AM",
-				"end": "12:00PM"
+				"start": "",
+				"end": ""
 			}
 		},
 		"break1": {
-			"title": ["LunchBreak"],
+			"title": ["Break"],
 			"time": {
-				"start": "12:00PM",
-				"end": "12:45PM"
+				"start": "",
+				"end": ""
 			}
 		},
 		"sub3": {
-			"title": ["JPR", "GAD", "MIC"],
+			"title": ["title"],
 			"time": {
-				"start": "12:45PM",
-				"end": "02:45PM"
-			}
-		},
-		"break2": {
-			"title": ["ShortBreak"],
-			"time": {
-				"start": "02:45PM",
-				"end": "03:00PM"
+				"start": "",
+				"end": ""
 			}
 		},
 		"sub4": {
-			"title": ["SEN"],
+			"title": ["title"],
 			"time": {
-				"start": "3:00PM",
-				"end": "4:00PM"
+				"start": "",
+				"end": ""
+			}
+		},
+		"break2": {
+			"title": ["Break"],
+			"time": {
+				"start": "",
+				"end": ""
 			}
 		},
 		"sub5": {
-			"title": ["DCC"],
+			"title": ["title"],
 			"time": {
-				"start": "04:00PM",
-				"end": "05:00PM"
+				"start": "",
+				"end": ""
+			}
+		},
+		"sub6": {
+			"title": ["title"],
+			"time": {
+				"start": "",
+				"end": ""
 			}
 		}
 	},
