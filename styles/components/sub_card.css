@@ -70,11 +70,7 @@
   padding: 0.25rem 2.5rem;
 }
 
-/* :root{
-  --pb-animation-duration: 15s
-} */
-
-.active-card {
+.progress-bar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,7 +83,9 @@
 
   height: 100%;
   width: 100%;
-  
+}
+
+.active-card {
   animation: progress-bar var(--pb-animation-duration) forwards;
 }
 

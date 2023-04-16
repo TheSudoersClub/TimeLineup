@@ -9,7 +9,7 @@ function renderCurrentDayTime() {
   const day = currentDate.toLocaleString("en-US", {
     weekday: "long",
   }).toLowerCase();
-  
+
   // get current hours and minutes
   let hours = currentDate.getHours();
   let minutes = currentDate.getMinutes();
@@ -20,8 +20,8 @@ function renderCurrentDayTime() {
   hours = hours % 12;
   hours = hours ? hours : 12;
   const time = `${hours < 10 ? "0" + hours : hours}:${
-      minutes < 10 ? "0" + minutes : minutes
-    } ${ampm}`;
+    minutes < 10 ? "0" + minutes : minutes
+  } ${ampm}`;
 
   // Return day and time object
   return {
@@ -114,14 +114,11 @@ function renderCards(offDays) {
               // get the height according to the titles
               const height = 5 * title.length;
 
-              const {
-                time
-              } = renderCurrentDayTime();
+              const { time } = renderCurrentDayTime();
               // render card
               screen.innerHTML += `
                 <div class="card-container" style="min-height: ${height}rem;">
                   <div class="card-foreground">
-                  <div class="progress-bar"></div>
                       <div class="subject-card-title-wrapper">
                         ${title
                           .map((e) => {
@@ -130,7 +127,10 @@ function renderCards(offDays) {
                           .join("")}
                       </div>
                       <div class="subject-card-time-wrapper">
-                        <span id="subject-card-time">${startTime.replace(/\b(AM|PM)\b/gi, "")} - ${endTime.replace(/\b(AM|PM)\b/gi, "")}</span>
+                        <span id="subject-card-time">${startTime.replace(
+                          /\b(AM|PM)\b/gi,
+                          ""
+                        )} - ${endTime.replace(/\b(AM|PM)\b/gi, "")}</span>
                       </div>
                   </div>
                   <div class="card-background" style="--card-clr: ${randomColor};"></div>
@@ -144,18 +144,17 @@ function renderCards(offDays) {
 }
 
 // check disabled cards
-function checkDisableCards(day,offDays) {
-
+function checkDisableCards(day, offDays) {
   // for off days
   if (offDays.includes(day)) {
-    return
+    return;
   }
 
   // regular days
   // get screen div with respect to day
   let screen = document.getElementById(day);
 
-  // reset the innerHTML 
+  // reset the innerHTML
   screen.innerHTML = "";
 
   // define an array of colors
@@ -176,7 +175,6 @@ function checkDisableCards(day,offDays) {
   // loop through subjects
   for (const subject in timeTableData[day]) {
     if (timeTableData[day].hasOwnProperty(subject)) {
-
       // get the subject's object wrt day
       const subjectObject = timeTableData[day][subject];
 
@@ -190,9 +188,7 @@ function checkDisableCards(day,offDays) {
       const endTime = subjectObject.time.end;
 
       // current time
-      let {
-        time
-      } = renderCurrentDayTime();
+      let { time } = renderCurrentDayTime();
 
       // decrement time by one minute
       time = incrementTimeByOneMinute(time);
@@ -208,11 +204,8 @@ function checkDisableCards(day,offDays) {
 
       // other weak days
       else {
-
         // generate a random index to select a color from the array
-        const randomIndex = Math.floor(
-          Math.random() * copyCardColors.length
-        );
+        const randomIndex = Math.floor(Math.random() * copyCardColors.length);
 
         // select the random color from the array
         const randomColor = copyCardColors[randomIndex];
@@ -224,13 +217,15 @@ function checkDisableCards(day,offDays) {
         const height = 5 * title.length;
 
         console.log(startTime, endTime, time);
-        console.log(isTimeBetween(startTime, endTime, time))
+        console.log(isTimeBetween(startTime, endTime, time));
 
         // render subject data in screen
         screen.innerHTML += `
-          <div class="card-container" style="min-height: ${height}rem; opacity: ${(isTimeBetween(startTime, endTime, time) ? "1" : "0.5")}">
+          <div class="card-container" style="min-height: ${height}rem; opacity: ${
+          isTimeBetween(startTime, endTime, time) ? "1" : "0.5"
+        }">
             <div class="card-foreground">
-            <div class="progress-bar"></div>
+              <div class="progress-bar ${(isTimeBetween(startTime, endTime, time) ? "active-card" : "")}"></div>  
                 <div class="subject-card-title-wrapper">
                   ${title
                     .map((e) => {
@@ -239,13 +234,15 @@ function checkDisableCards(day,offDays) {
                     .join("")}
                 </div>
                 <div class="subject-card-time-wrapper">
-                  <span id="subject-card-time">${startTime.replace(/\b(AM|PM)\b/gi, "")} - ${endTime.replace(/\b(AM|PM)\b/gi, "")}</span>
+                  <span id="subject-card-time">${startTime.replace(
+                    /\b(AM|PM)\b/gi,
+                    ""
+                  )} - ${endTime.replace(/\b(AM|PM)\b/gi, "")}</span>
                 </div>
             </div>
             <div class="card-background" style="--card-clr: ${randomColor};"></div>
           </div>`;
       }
     }
-
   }
 }
