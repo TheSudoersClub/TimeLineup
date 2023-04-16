@@ -5,7 +5,16 @@ updateJsonBtn.addEventListener("change", () => {
     const reader = new FileReader();
     reader.onload = (event) => {
         const jsonData = event.target.result;
-        const data = JSON.parse(jsonData);
+
+        let data;
+        try {
+             data = JSON.parse(jsonData);
+            
+        } catch (error) {
+            console.error(error)
+            return 
+        }
+
         localStorage.setItem('timeTableData', JSON.stringify(data));
         
         timeTableData = JSON.parse(localStorage.getItem("timeTableData"))
