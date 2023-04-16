@@ -1,26 +1,29 @@
+
+// load function
 window.addEventListener("load", () => {
     // get the day and time
     const {
         day
     } = renderCurrentDayTime();
+    console.log(day)
 
     // render screens
     renderScreens()
 
     // render subject Cards
-    renderCards()
+    renderCards(offDays)
 
     // get the AllEndTimes array for current day
-    getAllEndTimes(day);
+    getAllEndTimes(day, offDays);
 
     // set the opacity of all screen accordingly
-    setScreenOpacity(day.toLowerCase());
+    setScreenOpacity(day);
 
     // load the current day slide
-    showSlide(day.toLowerCase());
+    showSlide(day);
 
     // render current day and time cards accordingly
-    checkDisableCards(day.toLowerCase())
+    checkDisableCards(day, offDays)
 
     // rerender all cards for the any endTime trigger
     setInterval(() => {
@@ -35,8 +38,7 @@ window.addEventListener("load", () => {
                     allEndTimes.splice(i, 1);
                 }
             }
-            console.log("hello world")
-            checkDisableCards(day);
+            checkDisableCards(day, offDays);
         }
     }, 2000);
 
@@ -120,7 +122,7 @@ function setupScreens() {
     } = renderCurrentDayTime();
 
     // setup the screens opacity accordingly
-    setScreenOpacity(day.toLowerCase());
+    setScreenOpacity(day);
 
 }
 
@@ -179,7 +181,7 @@ function setScreenOpacity(day) {
     const headerDay = document.getElementById("day");
 
     // highlight the screen and day
-    if (headerDay.innerText.toLowerCase() === day) {
+    if (headerDay.innerHTML === day) {
         document.getElementById(day).style.opacity = "1";
         headerDay.style.opacity = "1";
     } else {

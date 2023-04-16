@@ -8,7 +8,7 @@ function renderCurrentDayTime() {
   // Get the current date and time
   const day = currentDate.toLocaleString("en-US", {
     weekday: "long",
-  });
+  }).toLowerCase();
   
   // get current hours and minutes
   let hours = currentDate.getHours();
@@ -45,7 +45,7 @@ function renderScreens() {
 }
 
 // render screen (day) cards
-function renderCards() {
+function renderCards(offDays) {
   // loop through the days in timeTable
   for (const day in timeTableData) {
     if (timeTableData.hasOwnProperty(day)) {
@@ -68,7 +68,7 @@ function renderCards() {
       let copyCardColors = cardColors;
 
       // for off days
-      if (day === "sunday") {
+      if (offDays.includes(day)) {
         screen.innerHTML += timeTableData[day];
       }
 
@@ -144,10 +144,10 @@ function renderCards() {
 }
 
 // check disabled cards
-function checkDisableCards(day) {
+function checkDisableCards(day,offDays) {
 
   // for off days
-  if (day === "sunday") {
+  if (offDays.includes(day)) {
     return
   }
 

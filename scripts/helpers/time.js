@@ -1,7 +1,10 @@
-// get all end times array of current day
-let allEndTimes = [];
+// get the all lecture ending Times in an array
+function getAllEndTimes(day, offDays) {
+  // exit if the day is in offDays array
+  if (offDays.includes(day)) {
+    return
+  };
 
-function getAllEndTimes(day) {
   // loop through subjects
   for (const subject in timeTableData[day]) {
     if (timeTableData[day].hasOwnProperty(subject)) {
