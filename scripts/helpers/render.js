@@ -35,13 +35,22 @@ function renderScreens() {
   // get the container section
   let container = document.getElementById("container");
 
-  // loop through the days in timeTable
-  for (const day in timeTableData) {
-    if (timeTableData.hasOwnProperty(day)) {
-      // render respective screen
-      container.innerHTML += `<div id="${day}" class="screen"></div>`;
+  // render default screen if user don't have added the json
+  if (timeTableData === null) {
+    container.innerHTML += `<div id="default-screen">hello world</div>`;
+  }
+
+  // render screens according to the added json
+  else {
+    // loop through the days in timeTable
+    for (const day in timeTableData) {
+      if (timeTableData.hasOwnProperty(day)) {
+        // render respective screen
+        container.innerHTML += `<div id="${day}" class="screen"></div>`;
+      }
     }
   }
+
 }
 
 // render screen (day) cards
