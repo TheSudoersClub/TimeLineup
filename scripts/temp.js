@@ -6,7 +6,7 @@ let timeTableData = {
       "title": ["title1", "title2", "title3"],
       "time": {
         "start": "10:00 AM",
-        "end": "11:00 AM"
+        "end": "08:00 PM"
       }
     },
     "break1": {
@@ -19,8 +19,8 @@ let timeTableData = {
     "sub2": {
       "title": ["title3  "],
       "time": {
-        "start": "10:00 AM",
-        "end": "11:00 AM"
+        "start": "08:00 PM",
+        "end": "09:00 PM"
       }
     },
     "sub3": {
