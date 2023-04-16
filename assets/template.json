@@ -1,56 +1,56 @@
 {
     "monday": {
         "sub1": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub2": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "break1": {
-            "title": "",
+            "title": ["Break"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub3": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub4": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "break2": {
-            "title": "",
+            "title": ["Break"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub5": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub6": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
@@ -59,56 +59,56 @@
     },
     "tuesday": {
         "sub1": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub2": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "break1": {
-            "title": "",
+            "title": ["Break"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub3": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub4": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "break2": {
-            "title": "",
+            "title": ["Break"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub5": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub6": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
@@ -117,56 +117,56 @@
     },
     "wednesday": {
         "sub1": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub2": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "break1": {
-            "title": "",
+            "title": ["Break"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub3": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub4": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "break2": {
-            "title": "",
+            "title": ["Break"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub5": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub6": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
@@ -175,56 +175,56 @@
     },
     "thursday": {
         "sub1": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub2": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "break1": {
-            "title": "",
+            "title": ["Break"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub3": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub4": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "break2": {
-            "title": "",
+            "title": ["Break"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub5": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub6": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
@@ -233,56 +233,56 @@
     },
     "friday": {
         "sub1": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub2": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "break1": {
-            "title": "",
+            "title": ["Break"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub3": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub4": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "break2": {
-            "title": "",
+            "title": ["Break"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub5": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub6": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
@@ -291,56 +291,56 @@
     },
     "saturday": {
         "sub1": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub2": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "break1": {
-            "title": "",
+            "title": ["Break"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub3": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub4": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "break2": {
-            "title": "",
+            "title": ["Break"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub5": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""
             }
         },
         "sub6": {
-            "title": "",
+            "title": ["title"],
             "time": {
                 "start": "",
                 "end": ""

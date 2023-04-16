@@ -77,9 +77,11 @@
 
   overflow: visible;
   position: absolute;
+  /* border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit; */
   border-radius: inherit;
   z-index: -1;
-  
+
   height: 100%;
   width: 100%;
 }
@@ -93,6 +95,7 @@
   from {
     width: var(--start-width);
   }
+
   to {
     width: 100%;
   }

@@ -16,6 +16,7 @@
   <script src="scripts/helpers/time.js" defer></script>
   <script src="scripts/helpers/toggle.js" defer></script>
   <script src="scripts/helpers/download-template.js" defer></script>
+  <script src="scripts/helpers/update-json.js" defer></script>
   
   <script src="scripts/temp.js" defer></script>
 
@@ -31,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Kanit:wght@400;500;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Kanit:wght@400;500;700&display=swap"
     rel="stylesheet" />
 
   <title>TimeLineup</title>
@@ -56,7 +57,8 @@
 
   <div class="edit-menu">
     <div class="update-container">
-      <button id="update-json-btn">Update/Add JSON</button>
+      <label for="choose-file" id="update-json-btn">Update/Add JSON</label>
+      <input type="file" id="choose-file">
     </div>
     <div class="download-container">
       <button id="download-template-btn">Download Template</button>
