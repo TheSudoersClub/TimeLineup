@@ -4,17 +4,43 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 6rem;
+  gap: 5rem;
 
   display: none;
 }
 
 #default-screen .logo img {
   width: 10rem;
-  transform: translateY(-2rem);
+  transform: translateY(-5rem);
 }
 
-#default-screen .controls{
-    display: grid;
-    gap: 2rem;
+#default-screen .controls {
+  display: grid;
+  gap: 2rem;
+}
+
+#default-screen .controls .outline {
+  border: 2px solid var(--txt-clr);
+  height: 3rem;
+  width: 50vw;
+  position: absolute;
+  border-radius: 50px;
+  z-index: -1;
+  transform: translate(5px, 8px);
+}
+
+#default-screen .controls button,
+label {
+  transition: 0.1s ease;
+}
+
+#default-screen .controls button:hover,
+label:hover {
+  background: var(--highlight-clr);
+}
+
+#default-screen .controls .download-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

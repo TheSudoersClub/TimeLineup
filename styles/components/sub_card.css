@@ -87,7 +87,7 @@
 }
 
 #active-card {
-  background: #dcdcdc;
+  background: var(--highlight-clr);
   animation: progress-bar var(--pb-animation-duration) forwards;
 }
 

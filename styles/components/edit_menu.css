@@ -20,12 +20,12 @@
 
 .toggle-on {
   animation: edit-menu-toggle-on 0.5s forwards;
-  animation-timing-function: cubic-bezier(.34, .09, .23, 1.06)
+  animation-timing-function: cubic-bezier(0.34, 0.09, 0.23, 1.06);
 }
 
 .toggle-off {
   animation: edit-menu-toggle-off 0.5s forwards;
-  animation-timing-function: cubic-bezier(.34, .09, .23, 1.06)
+  animation-timing-function: cubic-bezier(0.34, 0.09, 0.23, 1.06);
 }
 
 .update-container {
@@ -34,12 +34,12 @@
   justify-content: center;
   flex-direction: column;
 }
-#choose-file{
-    display: none;
+
+#choose-file {
+  display: none;
 }
 
-label
-{
+label {
   text-align: center;
   font-size: 13.33px;
   padding: 1rem 0.8rem;
@@ -48,16 +48,22 @@ label
   width: 50vw;
   font-weight: 600;
   background: var(--bg-clr);
+  transition: 0.1s ease;
 }
 
 button {
-  
   padding: 1rem 0.8rem;
   border-radius: 50px;
   border: 0.15rem solid var(--txt-clr);
   width: 50vw;
   font-weight: bold;
   background: var(--bg-clr);
+  transition: 0.1s ease;
+}
+
+label:hover,
+button:hover {
+  background: var(--highlight-clr);
 }
 
 @keyframes edit-menu-toggle-on {

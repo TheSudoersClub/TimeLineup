@@ -2,6 +2,7 @@
 :root {
   --bg-clr: whitesmoke;
   --txt-clr: rgb(35, 35, 35);
+  --highlight-clr:  #dcdcdc;
   --pb-animation-duration: 15s;
   --start-width: 0;
 }
