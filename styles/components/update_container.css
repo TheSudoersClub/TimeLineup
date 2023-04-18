@@ -1,0 +1,52 @@
+#update-container {
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    animation-name: rise-up;
+    animation-duration: 1s;
+
+    box-shadow: 1px 1px px rgba(0, 0, 0, 0.15);
+
+    padding: 2rem 3rem;
+    border-radius: 8px;
+    height: 150px;
+    width: 260px;
+    background: rgb(240, 240, 240);
+  }
+
+  #update-container span {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(105, 105, 105);
+    margin-bottom: 15px;
+  }
+
+  #update-container button {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    background: rgb(194, 231, 255);
+    color: #333;
+    font-weight: 700;
+  }
+  #update-container button:active{
+    background: rgb(189, 228, 253);
+  }
+
+  @keyframes rise-up {
+    0% {
+      translate: 0 20px;
+      opacity: 0.8;
+    }
+  }
