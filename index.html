@@ -15,7 +15,6 @@
   <script src="scripts/helpers/render.js" defer></script>
   <script src="scripts/helpers/time.js" defer></script>
   <script src="scripts/helpers/toggle.js" defer></script>
-  <script src="scripts/helpers/download-template.js" defer></script>
   <script src="scripts/helpers/update-json.js" defer></script>
   <script src="scripts/helpers/update.js" defer></script>
 
@@ -64,7 +63,9 @@
       <input type="file" id="choose-file">
     </div>
     <div class="download-container">
-      <button class="download-template-btn">Download Template</button>
+      <a href="./assets/template.json" download>
+        <button class="download-template-btn">Download Template</button>
+      </a>
     </div>
   </div>
 
@@ -80,16 +81,17 @@
       </div>
       <div class="download-container">
         <div class="outline"></div>
-        <button class="download-template-btn">Download Template</button>
+        <a href="./assets/template.json" download>
+          <button class="download-template-btn">Download Template</button>
+        </a>
       </div>
     </div>
-  </div>
 
-  <!-- App Updates  -->
-  <div id="update-container">
-    <span>Update Available</span>
-    <button id="update-btn">Install Update</button>
-  </div>
+    <!-- App Updates  -->
+    <div id="update-container">
+      <span>Update Available</span>
+      <button id="update-btn">Install Update</button>
+    </div>
 
 </body>
 
