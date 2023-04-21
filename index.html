@@ -17,6 +17,7 @@
   <script src="scripts/helpers/toggle.js" defer></script>
   <script src="scripts/helpers/update-json.js" defer></script>
   <script src="scripts/helpers/update.js" defer></script>
+  <script src="scripts/helpers/downloadTemplate.js" defer></script>
 
   <script src="scripts/temp.js" defer></script>
 
@@ -63,9 +64,7 @@
       <input type="file" id="choose-file">
     </div>
     <div class="download-container">
-      <a href="./assets/template.json" download>
-        <button class="download-template-btn">Download Template</button>
-      </a>
+      <button class="download-template-btn" onclick="downloadTemplate()">Download Template</button>
     </div>
   </div>
 
@@ -81,9 +80,7 @@
       </div>
       <div class="download-container">
         <div class="outline"></div>
-        <a href="./assets/template.json" download>
-          <button class="download-template-btn">Download Template</button>
-        </a>
+        <button class="download-template-btn" onclick="downloadTemplate()">Download Template</button>
       </div>
     </div>
 
